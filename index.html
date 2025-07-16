@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Jigsaw Puzzle</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>Quebra-cabeças</h1>
+
+      <div class="controls">
+        <button id="start-game">Comece novo jogo</button>
+        <button id="show-original">Mostrar a imagem original</button>
+      </div>
+
+      <div class="timer">Tempo: 00:00</div>
+
+      <div class="puzzle-container">
+        <div class="puzzle-grid"></div>
+        <div class="success-message">
+          <p>Quebra-cabeça completo!</p>
+          <p>Seu tempo: <span id="completion-time"></span></p>
+        </div>
+      </div>
+
+      <!-- Adicione isso logo após puzzle-container -->
+      <div id="proxima-fase">
+        <h2>Parabéns, você finalizou o terceiro desafio!</h2>
+      </div>
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>
